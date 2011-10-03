@@ -9,6 +9,6 @@ Usage:
 ```C#
 
 
-	Bootstrapper.Run(serviceLocator, () => new Type[] { typeof(BoostrapTask1), typeof(BootstrapTask2), });
+	Bootstrapper.Run(serviceLocator, () => new[] { typeof(BoostrapTask1), typeof(BootstrapTask2), });
 	
 ```

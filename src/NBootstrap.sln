@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NBootstrap", "NBootstrap\NBootstrap.csproj", "{D149BDF9-E394-4C45-A471-5B45D7E504A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NBootstrap.Test.Fast", "NBootstrap.Test.Fast\NBootstrap.Test.Fast.csproj", "{B4618BD5-B2BC-4A3E-90D1-B0F10D85CAFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Staging|Any CPU = Staging|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D149BDF9-E394-4C45-A471-5B45D7E504A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D149BDF9-E394-4C45-A471-5B45D7E504A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D149BDF9-E394-4C45-A471-5B45D7E504A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D149BDF9-E394-4C45-A471-5B45D7E504A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D149BDF9-E394-4C45-A471-5B45D7E504A2}.Staging|Any CPU.ActiveCfg = Staging|Any CPU
+		{D149BDF9-E394-4C45-A471-5B45D7E504A2}.Staging|Any CPU.Build.0 = Staging|Any CPU
+		{B4618BD5-B2BC-4A3E-90D1-B0F10D85CAFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4618BD5-B2BC-4A3E-90D1-B0F10D85CAFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4618BD5-B2BC-4A3E-90D1-B0F10D85CAFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4618BD5-B2BC-4A3E-90D1-B0F10D85CAFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4618BD5-B2BC-4A3E-90D1-B0F10D85CAFF}.Staging|Any CPU.ActiveCfg = Staging|Any CPU
+		{B4618BD5-B2BC-4A3E-90D1-B0F10D85CAFF}.Staging|Any CPU.Build.0 = Staging|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

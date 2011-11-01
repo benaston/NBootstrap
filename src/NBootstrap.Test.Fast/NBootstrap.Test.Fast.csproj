@@ -48,8 +48,9 @@
     <Reference Include="Moq">
       <HintPath>..\packages\Moq.4.0.10827\lib\NET40\Moq.dll</HintPath>
     </Reference>
-    <Reference Include="NServiceLocator">
-      <HintPath>..\packages\NServiceLocator.1.0.4293.1115\lib\net40\NServiceLocator.dll</HintPath>
+    <Reference Include="NServiceLocator, Version=1.0.4317.39679, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\NServiceLocator.1.0.4317.39679\lib\net40\NServiceLocator.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework, Version=2.5.10.11092, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>

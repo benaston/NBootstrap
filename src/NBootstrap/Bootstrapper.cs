@@ -16,7 +16,7 @@
         ///   Adding the tasks to the service locator first enables 
         ///   automatic resolution of their constructor parameters.
         /// </summary>
-        public static void Run(IServiceLocator serviceLocator, Func<IEnumerable<Type>> taskRetrievalFunction)
+        public static void Run<TActivationContext>(IServiceLocator<TActivationContext> serviceLocator, Func<IEnumerable<Type>> taskRetrievalFunction)
         {
             var taskTypes = taskRetrievalFunction();
             var taskTypesList = taskTypes.ToList();

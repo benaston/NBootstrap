@@ -46,8 +46,9 @@
     <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="NHelpfulException">
-      <HintPath>..\packages\NHelpfulException.1.0.4292.35244\lib\net40\NHelpfulException.dll</HintPath>
+    <Reference Include="NHelpfulException, Version=1.0.4322.41274, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\NHelpfulException.1.0.4322.41274\lib\net40\NHelpfulException.dll</HintPath>
     </Reference>
     <Reference Include="NServiceLocator, Version=1.0.4317.39679, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
